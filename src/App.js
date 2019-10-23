@@ -1,13 +1,16 @@
 import React from "react";
 import "./App.css";
+import Card from "./Components/Card";
+import Footer from "./Components/Footer";
+import Navbar from "./Components/Navbar";
+
 
 function App() {
   return (
     <div className="App">
-      <p>
-        Read through the instructions in the README.md file to build your NASA
-        app! Have fun 🚀!
-      </p>
+      <Navbar/>
+      <Card/>
+      <Footer/>
     </div>
   );
 }
